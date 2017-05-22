@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" parallel="none">
+  <parameter name="browserType" value="firefox"/>
+  <test name="ChromeTest(failed)" parallel="none">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="goods.AddCategory">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- goods.AddCategory -->
+      <class name="desktop.AddCommentary">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- desktop.AddCommentary -->
+      <class name="goods.AddProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- goods.AddProduct -->
+      <class name="login.RememberUser">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.RememberUser -->
+      <class name="salesPlaces.CountProductsAndPersonal">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.CountProductsAndPersonal -->
+      <class name="desktop.TwoEmployeesAtOnce">
+        <methods>
+          <include name="test"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- desktop.TwoEmployeesAtOnce -->
+      <class name="profile.ScreenLock">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.ScreenLock -->
+      <class name="transactions.Sale">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- transactions.Sale -->
+      <class name="login.Login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.Login -->
+      <class name="desktop.ProductDiscount">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- desktop.ProductDiscount -->
+      <class name="profile.PersonalDataChange">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.PersonalDataChange -->
+      <class name="desktop.AddProductToCassa">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- desktop.AddProductToCassa -->
+      <class name="desktop.EmptyCheckOutError">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- desktop.EmptyCheckOutError -->
+      <class name="desktop.TwoTablesAtOncePlusSalesDay">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- desktop.TwoTablesAtOncePlusSalesDay -->
+      <class name="salesPlaces.AddTable">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.AddTable -->
+      <class name="people.PrivatePerson">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- people.PrivatePerson -->
+      <class name="transactions.Purchase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- transactions.Purchase -->
+      <class name="cash.AddCashToCassa">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- cash.AddCashToCassa -->
+      <class name="desktop.ScreenLockCassa">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- desktop.ScreenLockCassa -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

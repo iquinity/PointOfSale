@@ -1,0 +1,40 @@
+<suite name="TestSuite" parallel="none">
+
+	<test name="ChromeTest">
+		<parameter name="browserType" value="chrome" />
+
+		<classes>
+			<class name="login.Login" />
+			<class name="login.RememberUser" />
+			<class name="profile.PersonalDataChange" />
+			<class name="profile.ScreenLock" />
+			<class name="people.PrivatePerson" />
+			<!-- Bug in the project <class name="People.BusinessPerson"/> -->
+			<class name="transactions.Sale" />
+			<class name="transactions.Purchase" />
+			<class name="goods.AddProduct" />
+			<class name="goods.AddCategory" />
+			<class name="salesPlaces.AddTable" />
+			<class name="salesPlaces.CountProductsAndPersonal" />
+			<class name="desktop.AddProductToCassa" />
+			<class name="desktop.AddCommentary" />
+			<class name="kitchen.KitchenOrder" />
+			<class name="desktop.EmptyCheckOutError" />
+			<class name="desktop.ScreenLockCassa" />
+			<class name="desktop.ProductDiscount" />
+			<class name="cash.AddCashToCassa" />
+			<class name="desktop.TwoTablesAtOncePlusSalesDay" />
+			<class name="desktop.TwoEmployeesAtOnce" />
+
+		</classes>
+
+	</test>
+
+	<test name="FirefoxTest">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="login.Login" />
+		</classes>
+	</test>
+
+</suite>

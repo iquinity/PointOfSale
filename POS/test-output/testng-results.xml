@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="571360" started-at="2017-05-16T08:16:22Z" finished-at="2017-05-16T08:25:54Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="554073" started-at="2017-05-16T08:16:22Z" finished-at="2017-05-16T08:25:36Z">
+      <class name="salesPlaces.CountProductsAndPersonal">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:salesPlaces.CountProductsAndPersonal@6884f0d9]" name="beforeMethod" is-config="true" duration-ms="9289" started-at="2017-05-16T11:20:11Z" finished-at="2017-05-16T11:20:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:salesPlaces.CountProductsAndPersonal@6884f0d9]" name="main" duration-ms="4781" started-at="2017-05-16T11:20:20Z" description="Check if correct amount of goods and employees is displayed in the &#039;Müügikohad&#039; section." finished-at="2017-05-16T11:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:salesPlaces.CountProductsAndPersonal@6884f0d9]" name="afterMethod" is-config="true" duration-ms="745" started-at="2017-05-16T11:20:25Z" finished-at="2017-05-16T11:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- salesPlaces.CountProductsAndPersonal -->
+      <class name="profile.ScreenLock">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:profile.ScreenLock@10dc7d6]" name="beforeMethod" is-config="true" duration-ms="7448" started-at="2017-05-16T11:17:11Z" finished-at="2017-05-16T11:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:profile.ScreenLock@10dc7d6]" name="main" duration-ms="1024" started-at="2017-05-16T11:17:18Z" description="Check if lockScreen(Ekraanilukk) in the upper menu works" finished-at="2017-05-16T11:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:profile.ScreenLock@10dc7d6]" name="afterMethod" is-config="true" duration-ms="798" started-at="2017-05-16T11:17:19Z" finished-at="2017-05-16T11:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- profile.ScreenLock -->
+      <class name="login.Login">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:login.Login@3a22bad6]" name="beforeMethod" is-config="true" duration-ms="9496" started-at="2017-05-16T11:16:22Z" finished-at="2017-05-16T11:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:login.Login@3a22bad6]" name="main" duration-ms="1064" started-at="2017-05-16T11:16:32Z" description="Check if login is working(chrome) + test with firefox browser" finished-at="2017-05-16T11:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:login.Login@3a22bad6]" name="afterMethod" is-config="true" duration-ms="983" started-at="2017-05-16T11:16:33Z" finished-at="2017-05-16T11:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- login.Login -->
+      <class name="desktop.TwoTablesAtOncePlusSalesDay">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.TwoTablesAtOncePlusSalesDay@7eae3764]" name="beforeMethod" is-config="true" duration-ms="8742" started-at="2017-05-16T11:23:40Z" finished-at="2017-05-16T11:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.TwoTablesAtOncePlusSalesDay@7eae3764]" name="main" duration-ms="48810" started-at="2017-05-16T11:23:49Z" description="Control the behaviour of the system and all the calculations if payments in two different tables in one session were made" finished-at="2017-05-16T11:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.TwoTablesAtOncePlusSalesDay@7eae3764]" name="afterMethod" is-config="true" duration-ms="799" started-at="2017-05-16T11:24:38Z" finished-at="2017-05-16T11:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.TwoTablesAtOncePlusSalesDay -->
+      <class name="salesPlaces.AddTable">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:salesPlaces.AddTable@69391e08]" name="beforeMethod" is-config="true" duration-ms="8743" started-at="2017-05-16T11:19:52Z" finished-at="2017-05-16T11:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:salesPlaces.AddTable@69391e08]" name="main" duration-ms="9401" started-at="2017-05-16T11:20:00Z" description="Add an additional table to the system and check if it is working. Then delete all the test data" finished-at="2017-05-16T11:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:salesPlaces.AddTable@69391e08]" name="afterMethod" is-config="true" duration-ms="779" started-at="2017-05-16T11:20:10Z" finished-at="2017-05-16T11:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- salesPlaces.AddTable -->
+      <class name="desktop.TwoEmployeesAtOnce">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.TwoEmployeesAtOnce@26b95b0b]" name="beforeMethod" is-config="true" duration-ms="8196" started-at="2017-05-16T11:24:38Z" finished-at="2017-05-16T11:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:desktop.TwoEmployeesAtOnce@26b95b0b]" name="test" duration-ms="48936" started-at="2017-05-16T11:24:47Z" description="Controlls the behaviour of the system if two employees use the system at once" finished-at="2017-05-16T11:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.TwoEmployeesAtOnce@26b95b0b]" name="afterMethod" is-config="true" duration-ms="781" started-at="2017-05-16T11:25:36Z" finished-at="2017-05-16T11:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.TwoEmployeesAtOnce -->
+      <class name="goods.AddProduct">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:goods.AddProduct@64fe9da7]" name="beforeMethod" is-config="true" duration-ms="7771" started-at="2017-05-16T11:18:32Z" finished-at="2017-05-16T11:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:goods.AddProduct@64fe9da7]" name="main" duration-ms="36985" started-at="2017-05-16T11:18:40Z" description="Check if adding a product works and then clear all the test data" finished-at="2017-05-16T11:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:goods.AddProduct@64fe9da7]" name="afterMethod" is-config="true" duration-ms="933" started-at="2017-05-16T11:19:17Z" finished-at="2017-05-16T11:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- goods.AddProduct -->
+      <class name="cash.AddCashToCassa">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:cash.AddCashToCassa@70cccd8f]" name="beforeMethod" is-config="true" duration-ms="10675" started-at="2017-05-16T11:23:19Z" finished-at="2017-05-16T11:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:cash.AddCashToCassa@70cccd8f]" name="main" duration-ms="9984" started-at="2017-05-16T11:23:29Z" description="Adds cash to the point of sale, verify it was added and afterwards delete all the test data" finished-at="2017-05-16T11:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cash.AddCashToCassa@70cccd8f]" name="afterMethod" is-config="true" duration-ms="768" started-at="2017-05-16T11:23:39Z" finished-at="2017-05-16T11:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- cash.AddCashToCassa -->
+      <class name="desktop.ProductDiscount">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.ProductDiscount@56afdf9a]" name="beforeMethod" is-config="true" duration-ms="7914" started-at="2017-05-16T11:22:56Z" finished-at="2017-05-16T11:23:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.ProductDiscount@56afdf9a]" name="main" duration-ms="14343" started-at="2017-05-16T11:23:04Z" description="Checks if it possible to set the maximum discount when selling a good" finished-at="2017-05-16T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.ProductDiscount@56afdf9a]" name="afterMethod" is-config="true" duration-ms="757" started-at="2017-05-16T11:23:18Z" finished-at="2017-05-16T11:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.ProductDiscount -->
+      <class name="profile.PersonalDataChange">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:profile.PersonalDataChange@7e744f43]" name="beforeMethod" is-config="true" duration-ms="9253" started-at="2017-05-16T11:16:55Z" finished-at="2017-05-16T11:17:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:profile.PersonalDataChange@7e744f43]" name="main" duration-ms="5683" started-at="2017-05-16T11:17:04Z" description="Check if it saves all the data when account data is changed. Then delete all the test data" finished-at="2017-05-16T11:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:profile.PersonalDataChange@7e744f43]" name="afterMethod" is-config="true" duration-ms="770" started-at="2017-05-16T11:17:10Z" finished-at="2017-05-16T11:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- profile.PersonalDataChange -->
+      <class name="desktop.EmptyCheckOutError">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.EmptyCheckOutError@716e431d]" name="beforeMethod" is-config="true" duration-ms="7400" started-at="2017-05-16T11:22:30Z" finished-at="2017-05-16T11:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.EmptyCheckOutError@716e431d]" name="main" duration-ms="4843" started-at="2017-05-16T11:22:37Z" description="Checks that it is impossible to pay for goods if none were selected" finished-at="2017-05-16T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.EmptyCheckOutError@716e431d]" name="afterMethod" is-config="true" duration-ms="739" started-at="2017-05-16T11:22:42Z" finished-at="2017-05-16T11:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.EmptyCheckOutError -->
+      <class name="desktop.AddCommentary">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.AddCommentary@35eb4a3b]" name="beforeMethod" is-config="true" duration-ms="8553" started-at="2017-05-16T11:21:53Z" finished-at="2017-05-16T11:22:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.AddCommentary@35eb4a3b]" name="main" duration-ms="10672" started-at="2017-05-16T11:22:01Z" description="Add a comment to an order and check if is displayed correctly later in the &#039;Tehingud&#039; section" finished-at="2017-05-16T11:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.AddCommentary@35eb4a3b]" name="afterMethod" is-config="true" duration-ms="793" started-at="2017-05-16T11:22:12Z" finished-at="2017-05-16T11:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.AddCommentary -->
+      <class name="people.PrivatePerson">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:people.PrivatePerson@103082dd]" name="beforeMethod" is-config="true" duration-ms="7508" started-at="2017-05-16T11:17:20Z" finished-at="2017-05-16T11:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:people.PrivatePerson@103082dd]" name="main" duration-ms="5684" started-at="2017-05-16T11:17:28Z" description="Check if adding an employee works and then delete all the test data" finished-at="2017-05-16T11:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:people.PrivatePerson@103082dd]" name="afterMethod" is-config="true" duration-ms="762" started-at="2017-05-16T11:17:33Z" finished-at="2017-05-16T11:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- people.PrivatePerson -->
+      <class name="transactions.Sale">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:transactions.Sale@5f7da3d3]" name="beforeMethod" is-config="true" duration-ms="7474" started-at="2017-05-16T11:17:34Z" finished-at="2017-05-16T11:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:transactions.Sale@5f7da3d3]" name="main" duration-ms="8024" started-at="2017-05-16T11:17:42Z" description="Check if a sale that was made previously is correctly displayed in the &#039;Tehingud&#039; section." finished-at="2017-05-16T11:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:transactions.Sale@5f7da3d3]" name="afterMethod" is-config="true" duration-ms="787" started-at="2017-05-16T11:17:50Z" finished-at="2017-05-16T11:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- transactions.Sale -->
+      <class name="desktop.ScreenLockCassa">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.ScreenLockCassa@64b3b1ce]" name="beforeMethod" is-config="true" duration-ms="8145" started-at="2017-05-16T11:22:43Z" finished-at="2017-05-16T11:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.ScreenLockCassa@64b3b1ce]" name="main" duration-ms="3839" started-at="2017-05-16T11:22:51Z" description="Check if lockScreen(Ekraanilukk) function is working" finished-at="2017-05-16T11:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.ScreenLockCassa@64b3b1ce]" name="afterMethod" is-config="true" duration-ms="829" started-at="2017-05-16T11:22:55Z" finished-at="2017-05-16T11:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.ScreenLockCassa -->
+      <class name="kitchen.KitchenOrder">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:kitchen.KitchenOrder@4f668f29]" name="beforeMethod" is-config="true" duration-ms="7332" started-at="2017-05-16T11:22:13Z" finished-at="2017-05-16T11:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:kitchen.KitchenOrder@4f668f29]" name="test" duration-ms="9054" started-at="2017-05-16T11:22:20Z" description="Check for a correct display of order that was finished in the kitchen" finished-at="2017-05-16T11:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:kitchen.KitchenOrder@4f668f29]" name="afterMethod" is-config="true" duration-ms="884" started-at="2017-05-16T11:22:29Z" finished-at="2017-05-16T11:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- kitchen.KitchenOrder -->
+      <class name="desktop.AddProductToCassa">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:desktop.AddProductToCassa@11a8042c]" name="beforeMethod" is-config="true" duration-ms="8259" started-at="2017-05-16T11:20:25Z" finished-at="2017-05-16T11:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:desktop.AddProductToCassa@11a8042c]" name="main" duration-ms="78024" started-at="2017-05-16T11:20:34Z" description="Create two goods, add them to kassa, verify the process and delete the two created goods" finished-at="2017-05-16T11:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:desktop.AddProductToCassa@11a8042c]" name="afterMethod" is-config="true" duration-ms="790" started-at="2017-05-16T11:21:52Z" finished-at="2017-05-16T11:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- desktop.AddProductToCassa -->
+      <class name="login.RememberUser">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:login.RememberUser@6a4ccef7]" name="beforeMethod" is-config="true" duration-ms="11996" started-at="2017-05-16T11:16:34Z" finished-at="2017-05-16T11:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:login.RememberUser@6a4ccef7]" name="main" duration-ms="8557" started-at="2017-05-16T11:16:46Z" finished-at="2017-05-16T11:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:login.RememberUser@6a4ccef7]" name="afterMethod" is-config="true" duration-ms="782" started-at="2017-05-16T11:16:54Z" finished-at="2017-05-16T11:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- login.RememberUser -->
+      <class name="transactions.Purchase">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:transactions.Purchase@49ec6a9f]" name="beforeMethod" is-config="true" duration-ms="7373" started-at="2017-05-16T11:17:50Z" finished-at="2017-05-16T11:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:transactions.Purchase@49ec6a9f]" name="main" duration-ms="33442" started-at="2017-05-16T11:17:58Z" description="Order goods to the storage and controll if the amount has actually changed" finished-at="2017-05-16T11:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:transactions.Purchase@49ec6a9f]" name="afterMethod" is-config="true" duration-ms="772" started-at="2017-05-16T11:18:31Z" finished-at="2017-05-16T11:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- transactions.Purchase -->
+      <class name="goods.AddCategory">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:goods.AddCategory@24934262]" name="beforeMethod" is-config="true" duration-ms="8189" started-at="2017-05-16T11:19:18Z" finished-at="2017-05-16T11:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:goods.AddCategory@24934262]" name="main" duration-ms="25043" started-at="2017-05-16T11:19:26Z" description="Check if adding product category works and then clear all the test data" finished-at="2017-05-16T11:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:goods.AddCategory@24934262]" name="afterMethod" is-config="true" duration-ms="803" started-at="2017-05-16T11:19:51Z" finished-at="2017-05-16T11:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- goods.AddCategory -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="17266" started-at="2017-05-16T08:25:36Z" finished-at="2017-05-16T08:25:54Z">
+      <class name="login.Login">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:login.Login@227a47]" name="beforeMethod" is-config="true" duration-ms="11790" started-at="2017-05-16T11:25:36Z" finished-at="2017-05-16T11:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="main()[pri:0, instance:login.Login@227a47]" name="main" duration-ms="5002" started-at="2017-05-16T11:25:48Z" description="Check if login is working(chrome) + test with firefox browser" finished-at="2017-05-16T11:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:login.Login@227a47]" name="afterMethod" is-config="true" duration-ms="474" started-at="2017-05-16T11:25:53Z" finished-at="2017-05-16T11:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- login.Login -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

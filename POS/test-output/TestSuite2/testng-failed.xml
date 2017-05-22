@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite2]">
+  <test name="Tools QA2(failed)">
+    <classes>
+      <class name="transactions.Sale">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- transactions.Sale -->
+      <class name="salesPlaces.CountProductsAndPersonal">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.CountProductsAndPersonal -->
+      <class name="transactions.Purchase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- transactions.Purchase -->
+      <class name="profile.ScreenLock">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.ScreenLock -->
+      <class name="cassa.EmptyCheckOutError">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- cassa.EmptyCheckOutError -->
+      <class name="profile.PersonalDataChange">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.PersonalDataChange -->
+      <class name="salesPlaces.AddTable">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.AddTable -->
+      <class name="goods.AddCategory">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- goods.AddCategory -->
+      <class name="people.PrivatePerson">
+        <methods>
+          <include name="main"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- people.PrivatePerson -->
+      <class name="goods.AddProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- goods.AddProduct -->
+      <class name="cassa.ScreenLockCassa">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- cassa.ScreenLockCassa -->
+      <class name="cassa.AddProductToCassa">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- cassa.AddProductToCassa -->
+      <class name="login.Login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.Login -->
+    </classes>
+  </test> <!-- Tools QA2(failed) -->
+</suite> <!-- Failed suite [TestSuite2] -->

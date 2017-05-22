@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [firstTestSuite]">
+  <test name="Tools QA(failed)">
+    <classes>
+      <class name="goods.AddProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- goods.AddProduct -->
+      <class name="profile.ScreenLock">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="main"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.ScreenLock -->
+      <class name="goods.AddCategory">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- goods.AddCategory -->
+      <class name="login.RememberUser">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.RememberUser -->
+      <class name="people.PrivatePerson">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- people.PrivatePerson -->
+      <class name="salesPlaces.countProductsAndPersonal">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.countProductsAndPersonal -->
+      <class name="transactions.Purchase">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- transactions.Purchase -->
+      <class name="transactions.Sale">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- transactions.Sale -->
+      <class name="profile.PersonalDataChange">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- profile.PersonalDataChange -->
+      <class name="salesPlaces.addTable">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- salesPlaces.addTable -->
+      <class name="login.LogOutFromAllOtherPages">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.LogOutFromAllOtherPages -->
+      <class name="login.Login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- login.Login -->
+    </classes>
+  </test> <!-- Tools QA(failed) -->
+</suite> <!-- Failed suite [firstTestSuite] -->

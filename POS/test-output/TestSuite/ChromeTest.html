@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 16 11:16:22 EEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>554 seconds (554073 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='login.Login.main()'><b>main</b><br>Test class: login.Login<br>Test method: Check if login is working(chrome) + test with firefox browser</td>
+<td></td>
+<td>1</td>
+<td>login.Login@3a22bad6</td></tr>
+<tr>
+<td title='login.RememberUser.main()'><b>main</b><br>Test class: login.RememberUser</td>
+<td></td>
+<td>8</td>
+<td>login.RememberUser@6a4ccef7</td></tr>
+<tr>
+<td title='profile.PersonalDataChange.main()'><b>main</b><br>Test class: profile.PersonalDataChange<br>Test method: Check if it saves all the data when account data is changed. Then delete all the test data</td>
+<td></td>
+<td>5</td>
+<td>profile.PersonalDataChange@7e744f43</td></tr>
+<tr>
+<td title='profile.ScreenLock.main()'><b>main</b><br>Test class: profile.ScreenLock<br>Test method: Check if lockScreen(Ekraanilukk) in the upper menu works</td>
+<td></td>
+<td>1</td>
+<td>profile.ScreenLock@10dc7d6</td></tr>
+<tr>
+<td title='people.PrivatePerson.main()'><b>main</b><br>Test class: people.PrivatePerson<br>Test method: Check if adding an employee works and then delete all the test data</td>
+<td></td>
+<td>5</td>
+<td>people.PrivatePerson@103082dd</td></tr>
+<tr>
+<td title='transactions.Sale.main()'><b>main</b><br>Test class: transactions.Sale<br>Test method: Check if a sale that was made previously is correctly displayed in the 'Tehingud' section.</td>
+<td></td>
+<td>8</td>
+<td>transactions.Sale@5f7da3d3</td></tr>
+<tr>
+<td title='transactions.Purchase.main()'><b>main</b><br>Test class: transactions.Purchase<br>Test method: Order goods to the storage and controll if the amount has actually changed</td>
+<td></td>
+<td>33</td>
+<td>transactions.Purchase@49ec6a9f</td></tr>
+<tr>
+<td title='goods.AddProduct.main()'><b>main</b><br>Test class: goods.AddProduct<br>Test method: Check if adding a product works and then clear all the test data</td>
+<td></td>
+<td>36</td>
+<td>goods.AddProduct@64fe9da7</td></tr>
+<tr>
+<td title='goods.AddCategory.main()'><b>main</b><br>Test class: goods.AddCategory<br>Test method: Check if adding product category works and then clear all the test data</td>
+<td></td>
+<td>25</td>
+<td>goods.AddCategory@24934262</td></tr>
+<tr>
+<td title='salesPlaces.AddTable.main()'><b>main</b><br>Test class: salesPlaces.AddTable<br>Test method: Add an additional table to the system and check if it is working. Then delete all the test data</td>
+<td></td>
+<td>9</td>
+<td>salesPlaces.AddTable@69391e08</td></tr>
+<tr>
+<td title='salesPlaces.CountProductsAndPersonal.main()'><b>main</b><br>Test class: salesPlaces.CountProductsAndPersonal<br>Test method: Check if correct amount of goods and employees is displayed in the 'Müügikohad' section.</td>
+<td></td>
+<td>4</td>
+<td>salesPlaces.CountProductsAndPersonal@6884f0d9</td></tr>
+<tr>
+<td title='desktop.AddProductToCassa.main()'><b>main</b><br>Test class: desktop.AddProductToCassa<br>Test method: Create two goods, add them to kassa, verify the process and delete the two created goods</td>
+<td></td>
+<td>78</td>
+<td>desktop.AddProductToCassa@11a8042c</td></tr>
+<tr>
+<td title='desktop.AddCommentary.main()'><b>main</b><br>Test class: desktop.AddCommentary<br>Test method: Add a comment to an order and check if is displayed correctly later in the 'Tehingud' section</td>
+<td></td>
+<td>10</td>
+<td>desktop.AddCommentary@35eb4a3b</td></tr>
+<tr>
+<td title='desktop.EmptyCheckOutError.main()'><b>main</b><br>Test class: desktop.EmptyCheckOutError<br>Test method: Checks that it is impossible to pay for goods if none were selected</td>
+<td></td>
+<td>4</td>
+<td>desktop.EmptyCheckOutError@716e431d</td></tr>
+<tr>
+<td title='desktop.ScreenLockCassa.main()'><b>main</b><br>Test class: desktop.ScreenLockCassa<br>Test method: Check if lockScreen(Ekraanilukk) function is working</td>
+<td></td>
+<td>3</td>
+<td>desktop.ScreenLockCassa@64b3b1ce</td></tr>
+<tr>
+<td title='desktop.ProductDiscount.main()'><b>main</b><br>Test class: desktop.ProductDiscount<br>Test method: Checks if it possible to set the maximum discount when selling a good</td>
+<td></td>
+<td>14</td>
+<td>desktop.ProductDiscount@56afdf9a</td></tr>
+<tr>
+<td title='cash.AddCashToCassa.main()'><b>main</b><br>Test class: cash.AddCashToCassa<br>Test method: Adds cash to the point of sale, verify it was added and afterwards delete all the test data</td>
+<td></td>
+<td>9</td>
+<td>cash.AddCashToCassa@70cccd8f</td></tr>
+<tr>
+<td title='desktop.TwoTablesAtOncePlusSalesDay.main()'><b>main</b><br>Test class: desktop.TwoTablesAtOncePlusSalesDay<br>Test method: Control the behaviour of the system and all the calculations if payments in two different tables in one session were made</td>
+<td></td>
+<td>48</td>
+<td>desktop.TwoTablesAtOncePlusSalesDay@7eae3764</td></tr>
+<tr>
+<td title='kitchen.KitchenOrder.test()'><b>test</b><br>Test class: kitchen.KitchenOrder<br>Test method: Check for a correct display of order that was finished in the kitchen</td>
+<td></td>
+<td>9</td>
+<td>kitchen.KitchenOrder@4f668f29</td></tr>
+<tr>
+<td title='desktop.TwoEmployeesAtOnce.test()'><b>test</b><br>Test class: desktop.TwoEmployeesAtOnce<br>Test method: Controlls the behaviour of the system if two employees use the system at once</td>
+<td></td>
+<td>48</td>
+<td>desktop.TwoEmployeesAtOnce@26b95b0b</td></tr>
+</table><p>
+</body>
+</html>
